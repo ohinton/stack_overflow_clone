@@ -12,19 +12,15 @@
     </div>
   <%end%>
 
-  <div class="field">
-    <%=f.label :email %><br>
-    <%=f.text_field :email %><br>
-  </div>
 
-  <div class="field">
-    <%=f.label :password %><br>
-    <%=f.password_field :password %><br>
-  </div>
+<%=f.label :username %><br>
+<%=f.text_field :username %><br>
+<%=f.label :email %><br>
+<%=f.text_field :email %><br>
+<%=f.label :password %><br>
+<%=f.password_field :password %><br>
+<%=f.label :password_confirmation %><br>
+<%=f.password_field :password_confirmation %><br>
 
-  <div class="field">
-    <%=f.label :password_confirmation %><br>
-    <%=f.password_field :password_confirmation %><br>
-  </div>
-  <div class="actions"><%=f.submit %></div>
+<%=f.submit "Sign Up" %></div>
 <%end%>

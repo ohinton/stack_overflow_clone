@@ -1,24 +1,12 @@
-# README
+# Stack Overflow Example
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### By Olivia Hinton & Katie Tuttle | 9/13/2016
 
-Things you may want to cover:
+## Description
+Practice project implementing user authentication with the bcrypt gem. Additionally, uses the Factory Girl and SimpleCov gems to keep tests DRY and thorough.
 
-* Ruby version
+### License
 
-* System dependencies
+*This software is licensed under the MIT license.*
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Copyright (c) 2016 **Olivia Hinton**
